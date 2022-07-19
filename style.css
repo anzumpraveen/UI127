@@ -1,0 +1,160 @@
+body{
+  margin: 0%;
+}
+.background{
+  background-image: linear-gradient(to right bottom, #000000, #00000000 ), url('women.jpeg');
+  overflow: hidden;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;  
+} 
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  margin-left: 7%;
+  top:7px;
+}
+
+.text{
+  font-size: 11px;
+  margin-right: 10%;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #EF0000;
+  color: #FFFFFF;
+  padding: 10px;
+}
+.icon{
+  position: absolute;
+  color: rgb(255, 254, 254);
+  font-size: 25px;
+  right: 3%;
+  top: 4.7%;
+}
+.buttontag{
+  display: flex;
+  justify-content: space-between;
+}
+.btn1 {
+  display: flex;
+  height: 39px;
+  width: 163px;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right,  #8F62E5 0%,#43ACFD 100%);
+  border-radius: 5px;
+  margin: 2%;
+}
+.meal-icon{
+  margin-right: 0.5rem;
+}
+.btn {
+  display: flex;
+  height: 39px;
+  width: 163px;
+  background-color: #FFFFFF4D;
+  color: white;
+  padding: 12px 40px;
+  border-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  margin: 2%;
+}
+.diamond{
+  margin-top: -22px;
+  margin-right: -0.7rem;
+  margin-left: -14px;
+}
+.album-tag{
+  display: inline-block;
+  background-color: rgba(65, 64, 64,0.5);
+  width: 36%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top:  25px;
+  border-radius: 5px;
+}
+.album{
+  align-items: center;
+  margin-top: 15px;
+  
+}
+
+.album-text{
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  border-radius: 10px;
+  background-color:rgba(65, 64, 64,0.6) ;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.text_tag{
+  margin-left: 1rem;
+  display: inline-block;
+}
+.tag {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.checking{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+
+}
+.inner_text{
+  display: flex;
+  justify-content: space-between;
+}
+.magic{
+  width: 47px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+.live-tag{
+
+  padding: 10px;
+  width: 276px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  background: linear-gradient(to right,  #8F62E5 0%,#43ACFD 100%);
+}
+.guest{
+  display: flex;
+  padding: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: -21px;
+  color: #000000;
+  opacity: 0.5;
+  font-family: 'Poppins', sans-serif; 
+}
+.live{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-left: 45%;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: -6rem;   
+}
+
+.dot{
+  font-size: 50px;
+  margin-left: 13.3rem;
+  margin-top: -4.3rem;
+  color: #ffffff;
+}
